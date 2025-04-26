@@ -19,5 +19,5 @@ sudo /root/anaconda3/bin/conda init
 # Step 5: Source /root/.bashrc to apply changes
 echo "Sourcing /root/.bashrc to apply changes..."
 source /root/.bashrc
-
+source ~/.bashrc
 echo "Anaconda installation complete and Conda initialized!"
