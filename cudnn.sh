@@ -19,6 +19,7 @@ sudo apt-get update
 # Step 5: Install cuDNN
 echo "Installing cuDNN..."
 sudo apt-get -y install cudnn
+sudo apt install nvidia-cuda-toolkit
 
 # Step 6: Modify .bashrc to add CUDA paths
 echo "Adding CUDA paths to ~/.bashrc..."
